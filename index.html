@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>DrakeOffC Стрим Хата - Премиальное стрим событие</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-d">D</span>
+                <span class="logo-text">rakeOffC</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Главная</a>
+                <a href="#guests" class="nav-link">Гости</a>
+                <a href="#about" class="nav-link">О проекте</a>
+            </div>
+            <div class="nav-right">
+                <div class="nav-social">
+                    <a href="https://twitch.tv/drakeoffc" target="_blank" class="social-link">
+                        <i class="fab fa-twitch"></i>
+                    </a>
+                </div>
+                <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главный баннер -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-drake">DrakeOffC</span>
+                    <span class="title-main">СТРИМ ХАТА</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Стрим хата ко дню рождения Дрейка, которая<br>
+                    проводится пятый год подряд.
+                </p>
+                <div class="hero-date">
+                    <span class="date-text">21 АВГУСТА</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="https://twitch.tv/drakeoffc" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-twitch"></i>
+                        Смотреть на Twitch
+                    </a>
+                    <a href="#guests" class="btn btn-secondary">
+                        Участники
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-avatar">
+                    <img src="images/drakeoffc.jpg" alt="DrakeOffC" class="avatar-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О проекте -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">О Стрим Хате</h2>
+                <p class="section-subtitle">Уникальный формат развлечений для миллионов зрителей</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Что такое Стрим Хата?</h3>
+                    <p>Стрим хата — это особый формат мероприятий, где популярные стримеры собираются в одном месте для совместных трансляций. Это уникальная возможность увидеть любимых контент-мейкеров в неформальной обстановке.</p>
+                    
+                    <h3>DrakeOffC</h3>
+                    <p>Денис Шевцов, известный как DrakeOffC — один из самых популярных российских стримеров на Twitch. С более чем 1.2 миллиона подписчиков, он специализируется на формате "Just Chatting" и создает уникальный контент для своей аудитории.</p>
+                    
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">1.2M+</span>
+                            <span class="stat-label">Подписчиков</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">28M+</span>
+                            <span class="stat-label">Просмотров</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">Лет подряд</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Участники -->
+    <section id="guests" class="guests">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Участники Стрим Хаты (мне было впадло всем костюмы фотошопить потому там не все)</h2>
+                <p class="section-subtitle">все наши</p>
+            </div>
+            <div class="guests-container">
+                <div class="scroll-hint">
+                    <i class="fas fa-arrow-left"></i>
+                    <span>Прокрутите для просмотра всех участников</span>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="guests-grid" id="guestsGrid">
+                <div class="guest-card">
+                    <div class="guest-avatar">
+                        <img src="images/batyaoffc.jpg" alt="batyaoffc" class="guest-img">
+                    </div>
+                    <h3 class="guest-name">batyaoffc</h3>
+                    <p class="guest-description">батёк</p>
+                </div>
+                <div class="guest-card">
+                    <div class="guest-avatar">
+                        <img src="images/kussia88.jpg" alt="kussia88" class="guest-img">
+                    </div>
+                    <h3 class="guest-name">kussia88</h3>
+                    <p class="guest-description">14 лет</p>
+                </div>
+                <div class="guest-card">
+                    <div class="guest-avatar">
+                        <img src="images/t2x2.jpg" alt="T2X2" class="guest-img">
+                    </div>
+                    <h3 class="guest-name">T2X2</h3>
+                    <p class="guest-description">14 лет</p>
+                </div>
+                <div class="guest-card">
+                    <div class="guest-avatar">
+                        <img src="images/mazellovvv.jpg" alt="mazellovvv" class="guest-img">
+                    </div>
+                    <h3 class="guest-name">mazellovvv</h3>
+                    <p class="guest-description">Популярный Twitch ререр</p>
+                </div>
+                <div class="guest-card">
+                    <div class="guest-avatar">
+                        <img src="images/priyatnogopoleta.jpg" alt="PRIYATNOGOPOLETA" class="guest-img">
+                    </div>
+                    <h3 class="guest-name">PRIYATNOGOPOLETA</h3>
+                    <p class="guest-description">ререрка</p>
+                </div>
+                <div class="guest-card">
+                    <div class="guest-avatar">
+                        <img src="images/deadblonde.jpg" alt="Dead Blonde" class="guest-img">
+                    </div>
+                    <h3 class="guest-name">Dead Blonde</h3>
+                    <p class="guest-description">поёт</p>
+                </div>
+                <div class="guest-card">
+                    <div class="guest-avatar">
+                        <img src="images/gspd.jpg" alt="GSPD" class="guest-img">
+                    </div>
+                    <h3 class="guest-name">GSPD</h3>
+                    <p class="guest-description">Контент-поёт</p>
+                </div>
+                <div class="guest-card">
+                    <div class="guest-avatar">
+                        <img src="images/leramidler.jpg" alt="leramidler" class="guest-img">
+                    </div>
+                    <h3 class="guest-name">leramidler</h3>
+                    <p class="guest-description">Стримерша и </p>
+                </div>
+                <div class="guest-card">
+                    <div class="guest-avatar">
+                        <img src="images/hanov.jpg" alt="ХАНОВ" class="guest-img">
+                    </div>
+                    <h3 class="guest-name">Братишкин</h3>
+                    <p class="guest-description">переоделся</p>
+                </div>
+                <div class="guest-card">
+                    <div class="guest-avatar">
+                        <img src="images/zakvielchannel.jpg" alt="ZakvielChannel" class="guest-img">
+                    </div>
+                    <h3 class="guest-name">ZakvielChannel</h3>
+                    <p class="guest-description">кубики</p>
+                </div>
+                <div class="guest-card">
+                    <div class="guest-avatar">
+                        <img src="images/nelyaray.jpg" alt="nelyaray" class="guest-img">
+                    </div>
+                    <h3 class="guest-name">nelyaray</h3>
+                    <p class="guest-description">стример</p>
+                </div>
+                <div class="guest-card">
+                    <div class="guest-avatar">
+                        <img src="images/stintik.jpg" alt="Stintik" class="guest-img">
+                    </div>
+                    <h3 class="guest-name">Stintik</h3>
+                    <p class="guest-description">неизвестный стример</p>
+                </div>
+                <div class="scroll-progress">
+                    <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-d">D</span>
+                        <span class="logo-text">rakeOffC</span>
+                    </div>
+                    <p>Фановый сайт стрим хаты DrakeOffC от Полтавского хлопчика</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Социальные сети</h4>
+                    <div class="footer-social">
+                        <a href="https://twitch.tv/drakeoffc" target="_blank">
+                            <i class="fab fa-twitch"></i>
+                            Twitch
+                        </a>
+                        <a href="#" target="_blank">
+                            <i class="fab fa-telegram"></i>
+                            Telegram
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DrakeOffC Stream House. Все права защищены. сайт не пиздить суки</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
